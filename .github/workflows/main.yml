@@ -6,6 +6,7 @@ on:
   push:
     branches:    
     - 'main'
+    - 'test-pipeline'
     paths:
       - 'data/raw/**.csv'
   workflow_dispatch:
